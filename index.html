@@ -175,11 +175,6 @@
         atts.push(prop + ": " + t[prop]);
       }
       atts.sort();
-      // document.querySelector('#atts').innerHTML = atts.join('<br />')
-      // document.querySelector('#networkLatency').innerHTML = 'for this page, ' + (t.responseEnd - t.fetchStart) + 'ms';
-      // var navigationTypes = ['clicking a link or entering a URL', 'reload', 'navigating through history'];
-      // var howIGotHere = navigationTypes[performance.navigation.type];
-      // document.querySelector('#howIGotHere').innerHTML = 'You got to this page by ' + howIGotHere + '.';
       writeTimeline();
     }
   
