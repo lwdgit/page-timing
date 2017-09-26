@@ -201,8 +201,8 @@
         ['ttfb:', performance.timing.responseStart - performance.timing.requestStart, 'ms', '\t计算公式:',
           'performance.timing.responseStart - performance.timing.requestStart'
         ],
-        ['first byte:', performance.timing.responseStart - performance.timing.domainLookupStart, 'ms', '\t计算公式:',
-          'performance.timing.responseStart - performance.timing.domainLookupStart'
+        ['first byte:', performance.timing.responseStart - performance.timing.navigationStart, 'ms', '\t计算公式:',
+          'performance.timing.responseStart - performance.timing.navigationStart'
         ],
         ['html加载完成时间:', performance.timing.domContentLoadedEventEnd - performance.timing.navigationStart, 'ms',
           '\t计算公式:', 'performance.timing.domContentLoadedEventEnd - performance.timing.navigationStart'
